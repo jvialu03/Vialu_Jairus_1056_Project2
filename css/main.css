@@ -1,0 +1,152 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-family: georgia, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+p:first-letter {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#about-wrapper {
+  background-color: #033f61;
+  padding: 20px 30px;
+}
+
+#about-wrapper h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #f3f1f0;
+  letter-spacing: -1px;
+}
+
+#about-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+#about-container p {
+  width: 60%;
+}
+
+#logoImage {
+  width: 283px;
+  height: 213px;
+}
+
+#about-container p {
+  color: #f3f1f0;
+}
+
+#why-wrapper {
+  background-color: #f3f1f0;
+  padding: 20px 30px;
+}
+
+#why-wrapper h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #033f61;
+  letter-spacing: -1px;
+}
+
+#why-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+
+#why-container img {
+  width: 559px;
+  height: 343px;
+}
+
+#why-container p {
+  color: #033f61;
+  width: 60%;
+}
+
+.values {
+  background-color: #033f61;
+  padding: 20px 30px;
+}
+
+.values h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #f3f1f0;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+.values p {
+  color: #f3f1f0;
+  width: 30%;
+}
+
+#beers {
+  padding: 20px 30px;
+  background-color: #201d1e;
+}
+
+#beers h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  color: #f3f1f0;
+  letter-spacing: -1px;
+}
+
+#feature {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.beerImages {
+  text-align: center;
+}
+
+.beerImages h3{
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  color: #f3f1f0;
+  letter-spacing: -1px;
+}
+
+#beerList {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #f3f1f0;
+  letter-spacing: -1px;
+  line-height: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#contact-wrapper {
+  background-color: #f3f1f0;
+  padding: 20px 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+#contact-wrapper h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    color: #033f61;
+    letter-spacing: -1px;
+}
+
+#contact-container {
+  width: 60%;
+}
